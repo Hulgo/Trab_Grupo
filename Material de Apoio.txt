@@ -1,0 +1,37 @@
+
+
+-O que é Git e Github;
+-Sistemas de Versionamento;
+-Importância do uso de versionamento;
+-Como funciona;
+--git init
+--git add "arquivo"
+--git commit -m "mensagem"
+--git status 
+--git remote add origin URL do git
+--git push -u origin master
+--git clone URL do git
+--git checkout arquivo
+-Prática;
+--git log
+--git log --graph
+--git reset --soft --mixed --hard
+--git reset --soft hash do commit
+--observação:
+--caso use git reset pode ser necessário utilizar o commando --force no push
+---git push -u origin master --force
+
+
+**perfil: nelsonic
+**Função Fork no site do Github
+**Branch
+---git branch (lista os branch's)
+---git checkout -b nomebranch (cria um branch)
+---git checkout nomebranch (troca entre branch's)
+---git branch -D nomebranch (remove um branch)
+---União de branch
+---Merge e Rebase
+---Merge - Operação não destrutiva; Ruim pq cria commit extra e deixa histórico poluído;
+----
+
+---Rebase - Bom pq não cria commit extra e deixa histórico linear; - perde a ordem cronológica;
